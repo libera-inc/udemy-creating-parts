@@ -1,0 +1,49 @@
+.flow-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+}
+
+.flow {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    position: relative;
+}
+
+.flow:not(:last-child)::after {
+    content: "";
+    display: block;
+    background-color: var(--color-nord10);
+    height: 16px;
+    width: 34px;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    position: absolute;
+    top: calc(100% + 26px);
+    left: 50%;
+    translate: -50% 0;
+}
+
+.flow-img img {
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 228/188;
+}
+
+.flow-contents {
+    padding: 24px;
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.flow-title {
+    color: var(--color-nord10);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.flow-text {
+    font-size: 16px;
+}

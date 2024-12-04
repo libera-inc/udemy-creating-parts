@@ -1,0 +1,78 @@
+:root {
+    --color-nord0: #2e3440;
+    --color-nord1: #3b4252;
+    --color-nord2: #434c5e;
+    --color-nord3: #4c566a;
+    --color-nord4: #d8dee9;
+    --color-nord5: #e5e9f0;
+    --color-nord6: #eceff4;
+    --color-nord7: #8fbcbb;
+    --color-nord8: #88c0d0;
+    --color-nord9: #81a1c1;
+    --color-nord10: #5e81ac;
+    --color-nord11: #bf616a;
+    --color-nord12: #d08770;
+    --color-nord13: #ebcb8b;
+    --color-nord14: #a3be8c;
+    --color-nord15: #b48ead;
+}
+
+body {
+    line-height: 1.7;
+    font-size: 16px;
+    color: var(--color-nord3);
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.container {
+    width: min(90%, 760px);
+    margin-inline: auto;
+    padding: 80px 0;
+}
+
+.spacer {
+    height: 64px;
+}
+
+.u-visually-hidden {
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    border: 0 !important;
+    padding: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    clip-path: inset(50%) !important;
+    margin: -1px !important;
+}
+
+/*!
+------------------------------
+*/
+
+.box {
+    container-type: inline-size;
+    background-color: #eee;
+    margin-inline: auto;
+    padding: 3em;
+    font-size: 20px;
+    font-size: clamp(1.25rem, 0.625rem + 2.63vw, 1.875rem);
+}
+
+.text {
+    /* font-size: 20px; */
+}
+
+@container (min-width: 400px) {
+    .text {
+        /* font-size: 30px; */
+        background-color: red;
+    }
+}

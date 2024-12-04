@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Figmaからのコーディング(タイトル編)</title>
+        <meta name="description" content="ページの説明" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form action="" class="form">
+                <div class="form-item">
+                    <label for="name" class="label">お名前</label>
+                    <input type="text" name="お名前" id="name" value="" placeholder="山田 太郎" class="text" />
+                </div>
+
+                <div class="form-item">
+                    <label for="contact" class="label">お問い合わせ内容</label>
+                    <textarea name="お問い合わせ内容" id="contact" placeholder="お問い合わせ内容を記入してください。" class="textarea"></textarea>
+                </div>
+
+                <fieldset class="form-item">
+                    <legend class="label">ラジオボタン</legend>
+                    <div class="radio-wrap">
+                        <label class="radio-label">
+                            <input type="radio" name="radio" id="radio1" value="1" class="radio" />
+                            <span class="radio-text">ラジオボタン01</span>
+                        </label>
+
+                        <label class="radio-label">
+                            <input type="radio" name="radio" id="radio2" value="2" class="radio" />
+                            <span class="radio-text">ラジオボタン02</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-item">
+                    <legend class="label">チェックボックス</legend>
+                    <div class="checkbox-wrap">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="checkbox1" id="checkbox1" value="1" class="checkbox" />
+                            <span class="checkbox-text">チェックボックス01</span>
+                        </label>
+
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="checkbox2" id="checkbox2" value="2" class="checkbox" />
+                            <span class="checkbox-text">チェックボックス02</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="select" class="label">セレクト</label>
+                    <div class="select-wrap">
+                        <select id="select" class="select">
+                            <option value="select1">セレクト01</option>
+                            <option value="select2">セレクト02</option>
+                            <option value="select3">セレクト03</option>
+                            <option value="select4">セレクト04</option>
+                            <option value="select5">セレクト05</option>
+                            <option value="select6">セレクト06</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

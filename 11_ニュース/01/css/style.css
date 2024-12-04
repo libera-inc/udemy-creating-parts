@@ -1,0 +1,28 @@
+.news {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.news-item {
+    padding: 24px 0px;
+    border-top: 1px solid var(--color-nord4);
+    gap: 40px;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: span 2;
+    align-items: center;
+}
+
+.news-item:last-child {
+    border-bottom: 1px solid var(--color-nord4);
+}
+
+.news-date {
+    opacity: 0.45;
+    font-weight: 700;
+}
+
+.news-title {
+    font-weight: 700;
+    line-height: 1.6;
+}

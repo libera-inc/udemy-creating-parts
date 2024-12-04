@@ -1,0 +1,22 @@
+.map iframe {
+    aspect-ratio: 2 / 1;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.youtube iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+}
+
+.twitter > * {
+    margin: 0 !important;
+}

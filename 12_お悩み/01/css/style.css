@@ -1,0 +1,43 @@
+html {
+    background-color: var(--color-bg);
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px 20px;
+}
+
+.item {
+    padding: 16px 24px;
+    border-radius: 12px;
+    background: var(--color-white);
+    width: calc((100% - 20px * 2) / 3);
+}
+
+.item-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.item-text::before {
+    content: "";
+    display: block;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--color-nord4);
+    margin-inline: auto;
+    margin-bottom: 10px;
+    background-image: url(../img/icon-check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.item-text span {
+    display: block;
+}

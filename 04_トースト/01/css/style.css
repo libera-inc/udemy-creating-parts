@@ -1,0 +1,55 @@
+.toast {
+    display: grid;
+    grid-template-columns: 27px 1fr 27px;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.toast img {
+    aspect-ratio: 1/1;
+}
+
+.toast span {
+    margin-right: 24px;
+}
+
+.success {
+    --color-toast-success: #0da84b;
+    --color-toast-bg-success: #dbffe8;
+
+    border: 2px solid var(--color-toast-success);
+    background: var(--color-toast-bg-success);
+    color: var(--color-toast-success);
+}
+
+.success svg {
+    fill: var(--color-toast-success);
+}
+
+.warning {
+    border: 2px solid var(--color-toast-warning);
+    background: var(--color-toast-bg-warning);
+    color: var(--color-toast-warning);
+}
+
+.warning svg {
+    fill: var(--color-toast-warning);
+}
+
+.error {
+    border: 2px solid var(--color-toast-error);
+    background: var(--color-toast-bg-error);
+    color: var(--color-toast-error);
+}
+
+.error svg {
+    fill: var(--color-toast-error);
+}

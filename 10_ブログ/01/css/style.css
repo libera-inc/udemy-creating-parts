@@ -1,0 +1,36 @@
+html {
+    background-color: var(--color-bg);
+}
+
+.blog {
+    max-width: 360px;
+    margin-inline: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 6px 6px 0px rgba(100, 130, 166, 0.25);
+}
+
+.blog-thumbnail img {
+    aspect-ratio: 360 / 220;
+    object-fit: cover;
+}
+
+.blog-contents {
+    padding: 22px 20px 25px 20px;
+    background-color: var(--color-white);
+}
+
+.blog-category {
+    color: var(--color-nord10);
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.blog-title {
+    margin-top: 6px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6;
+}

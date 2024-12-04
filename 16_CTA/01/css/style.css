@@ -1,0 +1,63 @@
+.cta {
+    margin: 80px 0;
+    padding: 80px 0;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: var(--color-white);
+    line-height: 1.6;
+}
+
+.cta-inner {
+    width: 90%;
+    max-width: 760px;
+    margin-inline: auto;
+}
+
+.cta-text {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .cta-text {
+        font-size: 32px;
+    }
+}
+
+.cta-text span {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .cta-text span {
+        display: inline;
+    }
+}
+
+.cta-text > span {
+    display: block;
+}
+
+.cta-text02 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cta-button {
+    margin-top: 8px;
+    display: block;
+    background-color: var(--color-nord11);
+    border-radius: 100vh;
+    max-width: 340px;
+    margin-inline: auto;
+    padding: 16px 24px;
+    font-weight: 700;
+}
+
+.cta-text03 {
+    margin-top: 8px;
+    font-size: 16px;
+}

@@ -1,0 +1,47 @@
+.title01 {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: var(--color-nord0);
+    color: var(--color-nord6);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.title02 {
+    padding: 8px 16px;
+    border-left: 4px solid var(--color-nord0);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.title03 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--color-nord0);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.title04 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 14px;
+    background-image: linear-gradient(to bottom, var(--color-nord12) 50%, var(--color-nord13) 50%);
+    background-size: 4px 100%;
+    background-repeat: no-repeat;
+}
+
+.title05 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title05::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: var(--color-nord3);
+    margin-inline: auto;
+    margin-top: 15px;
+}

@@ -1,0 +1,101 @@
+html {
+    background-color: var(--color-bg);
+}
+
+.plan-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.plan {
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title {
+    padding: 8px 12px;
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-title--pro {
+    background-color: var(--color-nord11);
+}
+
+.plan-title--business {
+    background-color: var(--color-nord13);
+}
+
+.plan-title--enterprise {
+    background-color: var(--color-nord14);
+}
+
+.plan-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.plan-price-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-price-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.plan-price {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.plan-content {
+    border-top: 1px solid var(--color-nord4);
+    margin-top: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.plan-content-item {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan-content-item::before {
+    content: "";
+    display: inline-block;
+    background-color: var(--color-nord3);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.plan-button-wrap {
+    border-top: 1px solid var(--color-nord4);
+    padding-top: 24px;
+    margin-top: auto;
+}
+
+.plan-button {
+    background-color: var(--color-nord3);
+    padding: 8px 24px;
+    color: var(--color-nord6);
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    border-radius: 100vh;
+}
