@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Figmaからのコーディング(トースト編)</title>
+        <meta name="description" content="ページの説明" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <p class="toast success">
+                <img src="img/icon-success.svg" alt="" width="27" height="27" decoding="async" />
+                <span>保存しました</span>
+                <button class="">
+                    <img src="img/icon-success-close.svg" alt="閉じる" width="27" height="27" decoding="async" />
+                </button>
+            </p>
+
+            <div class="spacer"></div>
+
+            <p class="toast warning">
+                <img src="img/icon-warning.svg" alt="" width="27" height="27" decoding="async" />
+                <span>この方法は非推奨です</span>
+                <button class="">
+                    <img src="img/icon-warning-close.svg" alt="閉じる" width="27" height="27" decoding="async" />
+                </button>
+            </p>
+
+            <div class="spacer"></div>
+
+            <p class="toast error">
+                <img src="img/icon-error.svg" alt="" width="27" height="27" decoding="async" />
+                <span>保存に失敗しました</span>
+                <button class="">
+                    <img src="img/icon-error-close.svg" alt="閉じる" width="27" height="27" decoding="async" />
+                </button>
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+.toast {
+    display: grid; /* dg */
+    grid-template-columns: 27px 1fr 27px; /* emmetなし */
+    align-items: center; /* ai:c */
+    gap: 8px; /* g8 */
+    padding: 8px 16px; /* p8-16 */
+    border-radius: 6px; /* bdrs6 */
+    font-weight: bold; /* fwb */
+    width: fit-content; /* w */
+}
+
+.toast span {
+    margin-right: 24px; /* mr24 */
+}
+
+.success {
+    border: 2px solid var(--color-toast-success); /* bd */
+    background-color: var(--color-toast-bg-success); /* bgc */
+    color: var(--color-toast-success); /* c */
+}
+
+.warning {
+    border: 2px solid var(--color-toast-warning); /* bd */
+    background: var(--color-toast-bg-warning); /* bgc */
+    color: var(--color-toast-warning); /* c */
+}
+
+.error {
+    border: 2px solid var(--color-toast-error); /* bd */
+    background: var(--color-toast-bg-error); /* bgc */
+    color: var(--color-toast-error); /* c */
+}

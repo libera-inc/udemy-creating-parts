@@ -1,0 +1,56 @@
+.list01 {
+    display: flex; /* df */
+    flex-wrap: wrap; /* fxw:w */
+    gap: 10px; /* g10 */
+}
+
+.item01 a {
+    display: inline-block; /* dib */
+    padding: 4px 8px; /* p4-8 */
+    border-radius: 6px; /* bdrs6 */
+    background-color: var(--color-nord3); /* bgc */
+    color: var(--color-nord6); /* c */
+    font-size: 16px; /* fz16 */
+    font-weight: bold; /* fwb */
+}
+
+.item01 a::before {
+    content: "# "; /* cnt */
+}
+
+.list02 {
+    display: flex; /* df */
+    flex-wrap: wrap; /* fxw:w */
+    gap: 6px 0; /* g6-0 */
+}
+
+.item02 {
+    font-size: 14px; /* fz14 */
+    font-weight: bold; /* fwb */
+    display: flex; /* df */
+    align-items: center; /* ai:c */
+}
+
+.item02:first-child:before {
+    content: ""; /* cnt */
+    display: inline-block; /* dib */
+    width: 20px; /* w20 */
+    height: 20px; /* h20 */
+    margin-right: 5px; /* mr5 */
+    background-image: url(../img/icon-home.svg); /* bgi */
+    background-size: contain; /* bgsz */
+    background-repeat: no-repeat; /* bgr */
+    background-position: center; /* bgp:c */
+}
+
+.item02:not(:last-child)::after {
+    content: ""; /* cnt */
+    display: inline-block; /* dib */
+    margin: 0 8px; /* p0-8 */
+    width: 20px; /* w20 */
+    height: 20px; /* h20 */
+    background-image: url(../img/icon-arrow.svg); /* bgi */
+    background-size: contain; /* bgsz */
+    background-repeat: no-repeat; /* bgr */
+    background-position: center; /* bgp:c */
+}

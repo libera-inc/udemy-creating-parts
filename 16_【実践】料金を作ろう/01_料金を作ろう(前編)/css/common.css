@@ -44,7 +44,7 @@ body {
 }
 
 .container {
-    width: min(90%, 760px);
+    width: min(90%, 1180px);
     margin-inline: auto;
     padding: 80px 0;
 }

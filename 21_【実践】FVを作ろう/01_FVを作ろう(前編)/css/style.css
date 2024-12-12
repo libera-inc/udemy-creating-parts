@@ -1,0 +1,72 @@
+.kv {
+    background: linear-gradient(to top right, #c7dbff, #e7fffc);
+    position: relative;
+}
+
+.kv-inner {
+    width: 90%;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 48%;
+    gap: 5%;
+    align-items: center;
+    height: 828px;
+    /* height: 100vh; */
+}
+
+.kv-text {
+    color: var(--color-nord0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.kv-text02 {
+    color: var(--color-nord0);
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-top: 9px;
+}
+
+.kv-text02 span {
+    display: inline-block;
+}
+
+.kv-cta-wrap {
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.kv-cta {
+    padding: 12px 40px;
+    border-radius: 100vh;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.kv-cta.--contact {
+    border: 2px solid var(--color-nord10);
+    background: var(--color-white);
+    color: var(--color-nord10);
+}
+
+.kv-cta.--download {
+    border: 2px solid var(--color-nord10);
+    background: var(--color-nord10);
+    color: var(--color-white);
+}
+
+.kv-wave {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.kv-wave svg {
+    width: 100%;
+}

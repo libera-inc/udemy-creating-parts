@@ -1,0 +1,42 @@
+.button {
+    display: inline-grid; /* dig */
+    place-items: center; /* emmetなし */
+    padding: 8px; /* p8 */
+    border-radius: 10px; /* bdrs10 */
+    background-color: var(--color-nord10); /* bgc */
+    position: relative; /* pos:r */
+}
+
+.button img {
+    width: 24px; /* w24 */
+    height: 24px; /* h24 */
+}
+
+.button-text {
+    display: inline-block; /* dib */
+    padding: 2px 10px; /* p2-10 */
+    border-radius: 6px; /* bdrs6 */
+    background-color: var(--color-nord3); /* bgc */
+    color: var(--color-nord6); /* c */
+    font-size: 14px; /* fz14 */
+    font-weight: bold; /* fwb */
+    white-space: nowrap; /* whs */
+    transition: all 0.2s; /* trs */
+    position: absolute; /* pos:a */
+    left: calc(100% + 8px); /* l */
+    top: 50%; /* t:50% */
+    pointer-events: none; /* emmetなし */
+    translate: 0 -50%; /* emmetなし */
+    scale: 0.9; /* emmetなし */
+    opacity: 0; /* op */
+    visibility: hidden; /* v */
+}
+
+@media (any-hover: hover) {
+    .button:hover .button-text {
+        opacity: 1; /* op */
+        scale: 1; /* emmetなし */
+        visibility: visible; /* v:v */
+        transition-delay: 0.3s; /* trsd */
+    }
+}

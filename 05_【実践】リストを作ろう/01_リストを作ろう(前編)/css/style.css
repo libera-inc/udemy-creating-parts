@@ -1,0 +1,44 @@
+.list01 {
+    display: flex; /* df */
+    flex-direction: column; /* fxd:c */
+    gap: 6px; /* g6 */
+}
+
+.item01 {
+    display: flex; /* df */
+    align-items: center; /* ai:c */
+    gap: 6px; /* g6 */
+    font-weight: bold; /* fwb */
+}
+
+.item01::before {
+    content: ""; /* cnt */
+    display: inline-block; /* dib */
+    width: 22px; /* w:22 */
+    height: 22px; /* h:22 */
+    background-image: url(../img/icon-check.svg); /* bgi */
+    background-size: contain; /* bgsz */
+    background-repeat: no-repeat; /* bgr */
+    background-position: center; /* bgp:c */
+}
+
+.list02 {
+    display: flex; /* df */
+    flex-direction: column; /* fxd:c */
+    gap: 6px; /* g6 */
+}
+
+.item02 {
+    display: flex; /* df */
+    gap: 8px; /* g8 */
+    font-weight: bold; /* fwb */
+    counter-increment: item-counter; /* coi */
+}
+
+.item02:before {
+    content: "0" counter(item-counter) "."; /* cnt */
+}
+
+.item02:nth-of-type(9) ~ .item02:before {
+    content: counter(item-counter) "."; /* cnt */
+}

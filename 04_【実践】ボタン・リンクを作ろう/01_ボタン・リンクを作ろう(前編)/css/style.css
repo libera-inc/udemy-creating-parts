@@ -1,0 +1,50 @@
+.button01 {
+    color: var(--color-nord6); /* c*/
+    font-weight: bold; /* fwb */
+    display: inline-block; /* dib */
+    border-radius: 10px; /* bdrs10 */
+    background-color: var(--color-nord3); /* bgc */
+    padding: 12px 32px; /* p12-32 */
+}
+
+.button02 {
+    color: var(--color-nord6); /* c */
+    font-weight: bold; /* fwb */
+    display: block; /* db */
+    text-align: center; /* ta:c */
+    border-radius: 10px; /* bdrs10 */
+    background-color: var(--color-nord3); /* bgc */
+    padding: 12px 32px; /* p12-32 */
+}
+
+.button03 {
+    color: var(--color-nord6); /* c */
+    font-weight: bold; /* fwb */
+    display: inline-flex; /* dif */
+    align-items: center; /* aic */
+    gap: 10px; /* g10 */
+    border-radius: 10px; /* bdrs10 */
+    background-color: var(--color-nord3); /* bgc */
+    padding: 8px 24px 8px 16px; /* p8-24-8-16 */
+}
+
+.button03 img {
+    width: 24px; /* w24 */
+    height: 24px; /* h24 */
+}
+
+.button04 {
+    color: var(--color-nord6); /* c */
+    font-weight: bold; /* fwb */
+    display: inline-flex; /* dif */
+    align-items: center; /* aic */
+    gap: 10px; /* bdrs10 */
+    border-radius: 10px; /* rd10 */
+    background-color: var(--color-nord3); /* bgc */
+    padding: 8px 14px 8px 24px; /* p8-14-8-24 */
+}
+
+.button04 img {
+    width: 24px; /* w24 */
+    height: 24px; /* h24 */
+}

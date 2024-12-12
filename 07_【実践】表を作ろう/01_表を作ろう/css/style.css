@@ -1,0 +1,42 @@
+.table-wrap {
+    overflow: scroll; /* ov:s */
+    -ms-overflow-style: none; /* emmetなし */
+    scrollbar-width: none; /* emmetなし */
+}
+
+.table-wrap::-webkit-scrollbar {
+    display: none; /* d:n */
+}
+
+.table {
+    width: 100%; /* w100% */
+    min-width: 520px; /* miw */
+}
+
+.table-caption {
+    font-weight: bold; /* fwb */
+    text-align: center; /* ta:c */
+    font-size: 20px; /* fz20 */
+    margin-bottom: 40px; /* mb40 */
+}
+
+.table-header,
+.table-data {
+    padding: 16px 12px; /* p16-12 */
+    font-weight: bold; /* fwb */
+    border-bottom: 1px solid var(--color-nord4); /* bdb */
+    border-top: 1px solid var(--color-nord4); /* bdt */
+}
+
+.table-header {
+    background-color: var(--color-nord6); /* bgc */
+    width: 30%; /* w30% */
+}
+
+.table-data {
+    width: 70%; /* w70% */
+}
+
+.table-data span {
+    display: block; /* db */
+}

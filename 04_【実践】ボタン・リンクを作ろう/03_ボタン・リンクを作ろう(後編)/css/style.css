@@ -1,0 +1,58 @@
+.button01 {
+    display: flex; /* df */
+    justify-content: space-between; /* jc:sb */
+    align-items: center; /* ai:c */
+    width: 250px; /* w:250 */
+    padding: 14px 0; /* p14-0 */
+    border-bottom: 2px solid var(--color-nord3); /* bdb */
+    font-weight: bold; /* fwb */
+}
+
+.button01 img {
+    width: 24px; /* w24 */
+    height: 24px; /* h24 */
+}
+
+.button02 {
+    width: 374px; /* w374 */
+    padding: 18px 18px 18px 40px; /* p18-18-18-40 */
+    border-radius: 100vh; /* bdrs */
+    background-color: var(--color-nord6); /* bgc */
+    display: flex; /* df */
+    justify-content: space-between; /* jc:sb */
+    align-items: center; /* ai:c */
+}
+
+.button02-inner {
+    display: flex; /* df */
+    flex-direction: column; /* fxd:c */
+    gap: 10px; /* g10 */
+}
+
+.button02-text,
+.button02-text02 {
+    font-weight: bold; /* fwb */
+    line-height: 1; /* lh:1 */
+}
+
+.button02-text {
+    font-size: 20px; /* fz20 */
+}
+
+.button02-text02 {
+    font-size: 14px; /* fz14 */
+}
+
+.button02-icon {
+    width: 40px; /* w:40 */
+    height: 40px; /* h:40 */
+    border-radius: 50%; /* bdrs */
+    background-color: var(--color-nord3); /* bgc */
+    display: grid; /* dg */
+    place-items: center; /* emmetなし */
+}
+
+.button02 img {
+    width: 22px; /* w:22 */
+    height: 22px; /* h:22 */
+}
