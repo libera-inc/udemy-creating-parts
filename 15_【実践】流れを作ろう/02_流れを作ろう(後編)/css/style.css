@@ -1,3 +1,7 @@
+html {
+    background-color: var(--color-bg);
+}
+
 .flow-wrap {
     display: flex;
     flex-direction: column;
@@ -31,7 +35,7 @@
 
 .flow-contents {
     padding: 24px;
-    background: var(--color-white);
+    background-color: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
