@@ -31,7 +31,7 @@ html {
     background-color: var(--color-nord4);
     margin-inline: auto;
     margin-bottom: 10px;
-    background-image: url(../img/icon-check.svg);
+    background-image: url(../img/icon-check.svg); /* bgii */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

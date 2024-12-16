@@ -37,10 +37,10 @@
     width: 20px; /* w20 */
     height: 20px; /* h20 */
     margin-right: 5px; /* mr5 */
-    background-image: url(../img/icon-home.svg); /* bgi */
-    background-size: contain; /* bgsz */
-    background-repeat: no-repeat; /* bgr */
-    background-position: center; /* bgp:c */
+    background-image: url(../img/icon-home.svg); /* bgii */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .item02:not(:last-child)::after {
@@ -49,8 +49,8 @@
     margin: 0 8px; /* p0-8 */
     width: 20px; /* w20 */
     height: 20px; /* h20 */
-    background-image: url(../img/icon-arrow.svg); /* bgi */
-    background-size: contain; /* bgsz */
-    background-repeat: no-repeat; /* bgr */
-    background-position: center; /* bgp:c */
+    background-image: url(../img/icon-arrow.svg); /* bgii */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

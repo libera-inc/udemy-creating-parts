@@ -22,7 +22,7 @@
     right: 20px;
     top: 50%;
     translate: 0 -50%;
-    background-image: url("../img/icon-arrow.svg");
+    background-image: url("../img/icon-arrow.svg"); /* bgii */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

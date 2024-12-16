@@ -20,7 +20,7 @@ html {
     position: absolute;
     letter-spacing: 24px;
     top: calc(-50px / 2);
-    background-image: url(../img/icon-quotation-marks.svg);
+    background-image: url(../img/icon-quotation-marks.svg); /* bgii */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

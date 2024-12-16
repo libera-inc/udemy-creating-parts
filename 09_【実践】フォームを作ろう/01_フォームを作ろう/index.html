@@ -19,60 +19,57 @@
     </head>
     <body>
         <div class="container">
-            <form action="" class="form">
+            <form class="form" method="post" action="">
                 <div class="form-item">
                     <label for="name" class="label">お名前</label>
-                    <input type="text" name="お名前" id="name" value="" placeholder="山田 太郎" class="text" />
+                    <input type="text" name="name" id="name" placeholder="山田 太郎" class="text" />
                 </div>
 
                 <div class="form-item">
-                    <label for="contact" class="label">お問い合わせ内容</label>
-                    <textarea name="お問い合わせ内容" id="contact" placeholder="お問い合わせ内容を記入してください。" class="textarea"></textarea>
+                    <label for="inquiry-details" class="label">お問い合わせ内容</label>
+                    <textarea name="inquiry-details" id="inquiry-details" placeholder="お問い合わせ内容を記入してください。" class="textarea"></textarea>
                 </div>
 
-                <fieldset class="form-item">
-                    <legend class="label">ラジオボタン</legend>
-                    <div class="radio-wrap">
-                        <label class="radio-label">
-                            <input type="radio" name="radio" id="radio1" value="1" class="radio" />
-                            <span class="radio-text">ラジオボタン01</span>
-                        </label>
-
-                        <label class="radio-label">
-                            <input type="radio" name="radio" id="radio2" value="2" class="radio" />
-                            <span class="radio-text">ラジオボタン02</span>
-                        </label>
-                    </div>
-                </fieldset>
-
-                <fieldset class="form-item">
-                    <legend class="label">チェックボックス</legend>
-                    <div class="checkbox-wrap">
-                        <label class="checkbox-label">
-                            <input type="checkbox" name="checkbox1" id="checkbox1" value="1" class="checkbox" />
-                            <span class="checkbox-text">チェックボックス01</span>
-                        </label>
-
-                        <label class="checkbox-label">
-                            <input type="checkbox" name="checkbox2" id="checkbox2" value="2" class="checkbox" />
-                            <span class="checkbox-text">チェックボックス02</span>
-                        </label>
-                    </div>
-                </fieldset>
-
                 <div class="form-item">
-                    <label for="select" class="label">セレクト</label>
+                    <label for="address" class="label">住所</label>
                     <div class="select-wrap">
-                        <select id="select" class="select">
-                            <option value="select1">セレクト01</option>
-                            <option value="select2">セレクト02</option>
-                            <option value="select3">セレクト03</option>
-                            <option value="select4">セレクト04</option>
-                            <option value="select5">セレクト05</option>
-                            <option value="select6">セレクト06</option>
+                        <select name="address" id="address" class="select">
+                            <option value="北海道">北海道</option>
+                            <option value="青森県">青森県</option>
+                            <option value="岩手県">岩手県</option>
                         </select>
                     </div>
                 </div>
+
+                <fieldset class="form-item">
+                    <legend class="label">性別</legend>
+                    <div class="radio-wrap">
+                        <div class="radio-label">
+                            <input type="radio" name="public-settings" value="公開" class="radio" id="men" />
+                            <label class="radio-text" for="men">公開</label>
+                        </div>
+
+                        <div class="radio-label">
+                            <input type="radio" name="public-settings" value="非公開" class="radio" id="woman" />
+                            <label class="radio-text" for="woman">非公開</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-item">
+                    <legend class="label">お問い合わせ項目</legend>
+                    <div class="checkbox-wrap">
+                        <div class="checkbox-label">
+                            <input type="checkbox" name="inquiry-item" value="資料請求" class="checkbox" id="document" />
+                            <label class="checkbox-text" for="document">資料請求</label>
+                        </div>
+
+                        <div class="checkbox-label">
+                            <input type="checkbox" name="inquiry-item" value="無料相談" class="checkbox" id="consultation" />
+                            <label class="checkbox-text" for="consultation">無料相談</label>
+                        </div>
+                    </div>
+                </fieldset>
             </form>
         </div>
     </body>

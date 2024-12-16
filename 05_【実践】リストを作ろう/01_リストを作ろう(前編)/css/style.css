@@ -16,10 +16,10 @@
     display: inline-block; /* dib */
     width: 22px; /* w:22 */
     height: 22px; /* h:22 */
-    background-image: url(../img/icon-check.svg); /* bgi */
-    background-size: contain; /* bgsz */
-    background-repeat: no-repeat; /* bgr */
-    background-position: center; /* bgp:c */
+    background-image: url(../img/icon-check.svg); /* bgii */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .list02 {

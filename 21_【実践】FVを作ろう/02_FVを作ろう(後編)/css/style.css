@@ -4,7 +4,7 @@
     height: calc(100vh - 80px);
     margin-inline: auto;
     margin-top: 40px;
-    background-image: url(../img/kv-bg.jpg);
+    background-image: url(../img/kv-bg.jpg); /* bgi */
     background-size: cover;
     background-position: center;
     border-radius: 40px 40px 40px 0px;
@@ -26,10 +26,10 @@
     width: 40px;
     height: 40px;
     position: absolute;
+    background-image: url("../img/icon-corners.svg"); /* bgii */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../img/icon-corners.svg");
 }
 
 .kv-main::before {
